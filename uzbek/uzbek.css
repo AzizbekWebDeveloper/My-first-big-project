@@ -9,4 +9,21 @@
 .conteiner {
     width: 100%;
     height: 100vh;
+    position: relative;
+}
+
+
+.conteiner .navbar {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to right, #E1624A, #C35B67,  #9F5286);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed relative;
+}
+
+.conteiner .navbar .left {
+    width: 50%;
+    height: 80px;
 }
