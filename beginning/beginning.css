@@ -257,6 +257,7 @@ body {
     top: 50px;
     /* right: -50px; */
     /* font-size: 10px; */
+    overflow-x: hidden;
 }
 
 
@@ -269,4 +270,7 @@ body {
     position: relative;
 }
 
-.container
+.container .body-right h3 a {
+    position: relative;
+    top: 50px;
+}
