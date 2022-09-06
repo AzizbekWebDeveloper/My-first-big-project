@@ -15,6 +15,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
+    overflow-x: hidden;
 }
 
 #topnav {
@@ -254,7 +255,7 @@ body {
     position: absolute;
     left: 1093px;
     bottom: 0px;
-    top: 50px;
+    top: 53px;
     /* right: -50px; */
     /* font-size: 10px; */
     overflow-x: hidden;
@@ -262,15 +263,77 @@ body {
 
 
 .container .body-right h1 {
-    top: 30px;
+    top: 20px;
+    overflow-x: hidden;
     right: 0px;
     padding: 0;
     margin: 0;
     color: #fff;
     position: relative;
+    font-size: 20px;
+    left: 50px;
 }
 
 .container .body-right h3 a {
     position: relative;
+    overflow-x: hidden;
+    top: 23px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: black;
+    width: 200px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.container .body-right .h1 {
+    overflow-x: hidden;
+    position: relative;
+    bottom: 200px;
+    color: aqua;
+}
+
+.container .body-center {
+    width: 60%;
+    height: 100%;
+    overflow-x: hidden;
+    position: absolute;
+    left: 273px;
+    bottom: 0px;
+    background: linear-gradient(to right, orangered, blue);
+}
+
+.container .body-center  h1 {
+    color: #fff;
+    z-index: 3;
+    position: absolute;
     top: 50px;
+    left: 30px;
+}
+
+.container .body-center p {
+    position: relative;
+    top: 100px;
+}
+
+.container .body-center h2 {
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    border: 3px solid #00ffff;
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.container .body-center h2 a {
+    color: aqua;
 }
