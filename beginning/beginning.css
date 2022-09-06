@@ -8,7 +8,6 @@
 
 body {
     background-color: #222;
-    /* font-family: ; */
 }
 
 
@@ -41,12 +40,10 @@ body {
  
     color: White;
     z-index: 2;
-    /* centering text */
     text-align: center;    /* horizontally */
     line-height: 55px;     /* vertically */
     
     text-decoration: none;
-    /* text-transform: uppercase; */
  }
 
 
@@ -249,55 +246,27 @@ body {
     font-size: 20px;
 }
 
-/* .container .navbar .ThreeLine a i { */
-    /* position: relative; */
-    /* left: 500px; */
-/* } */
+.container .body-right {
+    width: 20%;
+    height: 92%;
+    /* align-items: flex-end; */
+    background-color: #233;
+    position: absolute;
+    left: 1093px;
+    bottom: 0px;
+    top: 50px;
+    /* right: -50px; */
+    /* font-size: 10px; */
+}
 
- /* .ContainerTwo {
-    width: 80%;
+
+.container .body-right h1 {
+    top: 30px;
+    right: 0px;
     padding: 0;
     margin: 0;
-    height: 100vh;
+    color: #fff;
     position: relative;
-    right: 30px;
-} */
-
-/* .ContainerTwo .body-left{
-    z-index;
-    color: white;
-    width: 20%;
-    height: 100%;
-    background-color: #233;
-} */
-
-@media (min-width:0px) and (max-width: 902px){
-    .container .navbar .nav  {
-       /* overflow: hidden;  */
-        /* opacity: 1; */
-        display: none;
-    }
-
 }
 
-@media (min-width:902px) and (max-width: 8000px) {
-    #i{
-        display: none;
-            /* align-self: ; */
-    }
-}
-
-@media (min-width:0px) and (max-width: 936px){
-    .container .body-left a {
-        font-size: 10px;
-    }
-}
-
-@media (min-width:0px) and (max-width: 936px){
-    .container .body-left h1 {
-        font-size: 20px;
-        position: relative;
-        top: 70px;
-        /* width: 1000px; */
-    }
-}
+.container
