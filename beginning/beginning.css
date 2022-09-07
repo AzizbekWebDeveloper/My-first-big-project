@@ -443,7 +443,7 @@ body {
     top: 190px;
     /* left: 10px; */
     font-size: 20px;
-    right: 174px;
+    right: 173px;
 }
 
 .container .body-left-two #i {
@@ -453,3 +453,28 @@ body {
     /* left: 10px; */
     font-size: 20px;
 }
+
+.container .body-left-two #s {
+    transition: .1s;
+    position: absolute;
+    top: 250px;
+    /* left: 10px; */
+    font-size: 20px;
+}
+
+.container .body-left-two #b{
+    transition: .1s;
+    position: absolute;
+    top: 280px;
+    /* left: 10px; */
+    font-size: 20px;
+}
+
+.container .body-left-two #p {
+    transition: .1s;
+    position: absolute;
+    top: 310px;
+    /* left: 10px; */
+    font-size: 20px;
+}
+
